@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+
+/* CSS file for Project
+   Benjamin Ransom
+   CIS 155
+   V1 2019.04.23
+   V2 2019.05.07
+   V3 2019.05.21
+   img.css
+*/
+
+
+
+
+
+img {
+	width: 100%;
+}
+/* cite "http://hslpicker.com";
+   M2LO12 Demonstrate how CSS can change presentation of page elements (CSS, these are styles that impact 
+   page elements rather than impacting text on the page)
+   M2LO15 Apply colors using CSS (CSS, see 2-5 Working with Color in CSS)
+   M2LO14 Demonstrate and explain the use of progressive enhancement in CSS (CSS, see 2-6 
+   Employing Progressive Enhancement)*/
+

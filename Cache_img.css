@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+
+/* CSS file for Project
+   Benjamin Ransom
+   CIS 155
+   V1 2019.04.23
+   V2 2019.05.07
+   V3 2019.05.21
+   Cache_img.css
+*/
+
+header > nav > img {
+	height: 50%;
+	width: 50%;
+	float: right;
+}

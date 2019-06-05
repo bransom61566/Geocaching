@@ -1,0 +1,201 @@
+@charset "utf-8";
+html    {
+	background:transparent;
+	font-size: 100%;
+	margin: 0;
+}
+/*M3LO1 Demonstrate the use of CSS reset styles (CSS, note where you have CSS reset rules)*/
+
+/* CSS file for Project
+   Benjamin Ransom
+   CIS 155
+   V1 2019.04.23
+   V2 2019.05.07
+   V3 2019.05.21
+   styles.css
+*/
+
+
+/*Structure style*/
+
+html {
+	background-color: hsla(214,60%,56%,1);
+	background-color: rgb(75,134,210);
+	font-size:1.1em;
+}
+
+
+
+/* img styles are in img.css */
+
+
+body {
+	font-size:1.1em;
+	
+}
+/*M2LO3A Demonstrate style precedence in CSS (CSS, see 2-3d Style Specificity and Precedence)
+  M2LO3B Demonstrate style inheritance in CSS (CSS, see 2-3e Style Inheritance)*/
+
+body > figure   {
+	text-align: center;
+	text-shadow: rgba(20,20,20,0.6) 5px 5px 15px;
+}
+
+/*M4LO5 Demonstrate the use of text or box shadowing (CSS, note one of these two in your CSS and explain its impact on the HTML)*/
+
+header {
+	font-size:1.2em;
+}
+
+
+article > h1 {
+	font-size:1.3em;
+}
+/*M2LO5 Demonstrate contextual selectors (CSS, specify 2 times, showing two
+ different types of contextual selectors as shown in Figure 2-12, Contextual Selectors, of the textbook)*/
+
+article > img    {
+	display: block;
+	float: right;
+	width: 8%;
+	clear: right;
+}
+/*M3LO2 Demonstrate floating elements (CSS, note where you have specified a floating element and what its impact is)
+M3LO3 Demonstrate a clearing float (CSS, note where you have used a clear and what its impact is)*/
+
+
+
+/*p::after   {
+		clear: right;
+		content: "";
+	}	*/
+	
+article > p    {
+	position: relative;
+	top: -15px;
+	left: 5px;
+}
+/*M3LO8 Demonstrate absolute or relative positioning (CSS, note which is used in your CSS and describe what its impact is on the HTML)*/
+
+
+
+p > img    {
+	float: right;
+	display: block;
+	width: 10%;
+	clear: both;
+	-webkit-opacity:0.75;
+	opacity: 0.75;
+	}
+/*M3LO4 Demonstrate removing container collapse by having a container element with a style rule that expands it around its floated content
+M3LO11 Demonstrate -prefix- style browser extensions use in CSS (CSS note the use in your CSS and what the purpose is)
+M4LO6 Demonstrate the use of opacity/transparency for images (see "Creating Semi-Transparent Objects" in Tutorial 4 (4-9 in the e-book)) (CSS)*/
+
+#WB  {
+	color:red;
+	opacity: 0.85;
+}
+/*M2LO6A  Demonstrate a CSS id selector (CSS, see 2-9b Attribute selectors)*/
+
+#rr    {
+	transform: translate(10px, -10px);
+}
+/*M4LO8 Demonstrate the use of transformations for 2D or 3D images (CSS, use the transform property as covered in Tutorial 4 and explain its impact on the HTML)*/
+
+p {
+	font-size:1.0em;
+	
+}
+/* M2LO6B  Demonstrate a CSS class selector (CSS, see 2-9b Attribute selectors)
+   M2LO13 Demonstrate how CSS can change presentation of textual elements 
+   (CSS, these are styles that impact text that is rendered on the page)*/
+
+footer {
+	text-align: center;
+	background: linear-gradient(hsla(214,60%,56%,1), hsla(215,100%,29%,1));
+	}
+/*M4LO4 Demonstrate the use of gradients (CSS)*/
+
+footer > cite {
+	font-size:1.3em;
+}	
+/*M2LO5 Demonstrate contextual selectors (CSS, specify 2 times, showing two 
+  different types of contextual selectors as shown in Figure 2-12, Contextual Selectors, of the textbook)*/
+
+a[href] {
+	font-size:1.3em;
+}
+
+/*
+M2LO7 Demonstrate a CSS attribute selector other than class or id (CSS, see 2-9b Attribute selectors)*/
+
+article > h1::first-letter {
+	font-size:1.4em;
+}
+/*M2LO11B Demonstrate a pseudo-element selector (CSS, see 2-18 Using Pseudo-Classes and Pseudo-Elements)
+*/
+nav > ul > li > a:link, nav > ul > li > a:visited {
+	color:hsla(0,100%,30%,1);
+	text-decoration: none;
+}
+nav > ul > li > a:hover, nav > ul > li > a:active {
+	color:hsla(0,100%,100%,1);
+}	
+/*
+M2LO11A Demonstrate a pseudo-class selector (CSS, see 2-18 Using Pseudo-Classes and Pseudo-Elements)
+
+*/
+
+.dropbtn {
+	float: right;
+	background-color: #C62424;
+	color: white;
+	padding: 10px;
+	font-size: 1em;
+	border: none;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #8D8DB0;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index:1;
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 10px 14px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
+.dropdown:hover .dropbtn {
+	background-color: #F07E7E;
+}
+
+/*M5LO4 Use CSS for pull-down menus (or collapsible/expandable areas) (CSS, note where the menu is on your site 
+and how it behaves) The menu expands when you hover over it and will navigate you to any page on the site.
+cite for color https://www.quackit.com
+*/
+
+@media only screen and (max-width: 600px)  {
+	div.img {
+		display: none;
+	}
+}
+

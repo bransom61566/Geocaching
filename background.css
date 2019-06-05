@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+
+/* CSS file for Project
+   Benjamin Ransom
+   CIS 155
+   V1 2019.04.23
+   V2 2019.05.07
+   V3 2019.05.21
+   background.css
+*/
+
+
+
+img {
+	float: right;
+	height: 50%;
+	width: 50%;
+}
+img  {
+	border-radius: 90px;
+	
+}
+/* M4LO2 Demonstrate the use of background images (CSS)
+M4LO3 Demonstrate the use of rounded corners for borders (CSS)
+M3LO9 Demonstrate fixed, static, or inherited positioning (CSS, note explicit use of one of the three in
+your CSS and what the impact is on the HTML)*/
+
+
