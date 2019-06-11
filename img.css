@@ -13,14 +13,71 @@
 
 
 
-
-img {
-	width: 100%;
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
 }
+
+.center2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+
+img  {
+	border-radius: 90px;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+figure figcaption {
+	text-align: center;
+}
+
+.special {
+	width: 200px;
+    height: 200px;
+    -webkit-transition: width 2s, height 4s; 
+    transition: width 2s, height 4s;
+}
+
+.special:hover {
+  width: 400px;
+  height: 400px;
+}
+
+/* M8LO10 Demonstrate a CSS animation or transition (CSS, identify which is being done and its impact on 
+the rendered HTML; note it has to include a time aspect, not be immediate) */
+
+iframe {
+	margin: 2px;
+	border: 1px;
+}
+
+video {
+	margin: 2px;
+}
+
+/*M8LO12 Demonstrate how to format media with CSS (CSS, group your media styles together and describe 
+their overall impact on the media feature of your page)
+I adjusted the sizes of the iframe and the video so they would line up*/
+
 /* cite "http://hslpicker.com";
    M2LO12 Demonstrate how CSS can change presentation of page elements (CSS, these are styles that impact 
    page elements rather than impacting text on the page)
    M2LO15 Apply colors using CSS (CSS, see 2-5 Working with Color in CSS)
    M2LO14 Demonstrate and explain the use of progressive enhancement in CSS (CSS, see 2-6 
    Employing Progressive Enhancement)*/
+
+
+
+
+
+
+
+
 

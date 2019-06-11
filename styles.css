@@ -91,10 +91,7 @@ p > img    {
 M3LO11 Demonstrate -prefix- style browser extensions use in CSS (CSS note the use in your CSS and what the purpose is)
 M4LO6 Demonstrate the use of opacity/transparency for images (see "Creating Semi-Transparent Objects" in Tutorial 4 (4-9 in the e-book)) (CSS)*/
 
-#WB  {
-	color:red;
-	opacity: 0.85;
-}
+
 /*M2LO6A  Demonstrate a CSS id selector (CSS, see 2-9b Attribute selectors)*/
 
 #rr    {
